@@ -1,0 +1,461 @@
+receipt_id,source_split,field_path,value
+train_0000,train,menu[0].nm,Nasi Campur Bali
+train_0000,train,menu[0].cnt,1 x
+train_0000,train,menu[0].price,"75,000"
+train_0000,train,menu[1].nm,Bbk Bengil Nasi
+train_0000,train,menu[1].cnt,1 x
+train_0000,train,menu[1].price,"125,000"
+train_0000,train,menu[2].nm,MilkShake Starwb
+train_0000,train,menu[2].cnt,1 x
+train_0000,train,menu[2].price,"37,000"
+train_0000,train,menu[3].nm,Ice Lemon Tea
+train_0000,train,menu[3].cnt,1 x
+train_0000,train,menu[3].price,"24,000"
+train_0000,train,menu[4].nm,Nasi Ayam Dewata
+train_0000,train,menu[4].cnt,1 x
+train_0000,train,menu[4].price,"70,000"
+train_0000,train,menu[5].nm,Free Ice Tea
+train_0000,train,menu[5].cnt,3 x
+train_0000,train,menu[5].price,0
+train_0000,train,menu[6].nm,Organic Green Sa
+train_0000,train,menu[6].cnt,1 x
+train_0000,train,menu[6].price,"65,000"
+train_0000,train,menu[7].nm,Ice Tea
+train_0000,train,menu[7].cnt,1 x
+train_0000,train,menu[7].price,"18,000"
+train_0000,train,menu[8].nm,Ice Orange
+train_0000,train,menu[8].cnt,1 x
+train_0000,train,menu[8].price,"29,000"
+train_0000,train,menu[9].nm,Ayam Suir Bali
+train_0000,train,menu[9].cnt,1 x
+train_0000,train,menu[9].price,"85,000"
+train_0000,train,menu[10].nm,Tahu Goreng
+train_0000,train,menu[10].cnt,2 x
+train_0000,train,menu[10].price,"36,000"
+train_0000,train,menu[11].nm,Tempe Goreng
+train_0000,train,menu[11].cnt,2 x
+train_0000,train,menu[11].price,"36,000"
+train_0000,train,menu[12].nm,Tahu Telor Asin
+train_0000,train,menu[12].cnt,1 x
+train_0000,train,menu[12].price,"40,000."
+train_0000,train,menu[13].nm,Nasi Goreng Samb
+train_0000,train,menu[13].cnt,1 x
+train_0000,train,menu[13].price,"70,000"
+train_0000,train,menu[14].nm,Bbk Panggang Sam
+train_0000,train,menu[14].cnt,3 x
+train_0000,train,menu[14].price,"366,000"
+train_0000,train,menu[15].nm,Ayam Sambal Hija
+train_0000,train,menu[15].cnt,1 x
+train_0000,train,menu[15].price,"92,000"
+train_0000,train,menu[16].nm,Hot Tea
+train_0000,train,menu[16].cnt,2 x
+train_0000,train,menu[16].price,"44,000"
+train_0000,train,menu[17].nm,Ice Kopi
+train_0000,train,menu[17].cnt,1 x
+train_0000,train,menu[17].price,"32,000"
+train_0000,train,menu[18].nm,Tahu Telor Asin
+train_0000,train,menu[18].cnt,1 x
+train_0000,train,menu[18].price,"40,000"
+train_0000,train,menu[19].nm,Free Ice Tea
+train_0000,train,menu[19].cnt,1 x
+train_0000,train,menu[19].price,0
+train_0000,train,menu[20].nm,Bebek Street
+train_0000,train,menu[20].cnt,1 x
+train_0000,train,menu[20].price,"44,000"
+train_0000,train,menu[21].nm,Ice Tea Tawar
+train_0000,train,menu[21].cnt,1 x
+train_0000,train,menu[21].price,"18,000"
+train_0000,train,sub_total.subtotal_price,"1,346,000"
+train_0000,train,sub_total.service_price,"100,950"
+train_0000,train,sub_total.tax_price,"144,695"
+train_0000,train,sub_total.etc,-45
+train_0000,train,total.total_price,"1,591,600"
+train_0001,train,menu[0].nm,SPGTHY BOLOGNASE
+train_0001,train,menu[0].cnt,1
+train_0001,train,menu[0].price,"58,000"
+train_0001,train,menu[1].nm,PEPPER AUS
+train_0001,train,menu[1].cnt,1
+train_0001,train,menu[1].price,"165,000"
+train_0001,train,menu[1].sub.nm,WELL DONE
+train_0001,train,menu[2].nm,WAGYU RIBEYE
+train_0001,train,menu[2].cnt,1
+train_0001,train,menu[2].price,"195,000"
+train_0001,train,menu[2].sub.nm,MEDIUM WELL
+train_0001,train,menu[3].nm,ICED LEMON TEA
+train_0001,train,menu[3].cnt,1
+train_0001,train,menu[3].price,"22,000"
+train_0001,train,menu[4].nm,FUSION TEA LYCHE
+train_0001,train,menu[4].cnt,1
+train_0001,train,menu[4].price,"28,000"
+train_0001,train,menu[5].nm,NUTTELA BROWNIES
+train_0001,train,menu[5].cnt,1
+train_0001,train,menu[5].price,"35,000"
+train_0001,train,sub_total.subtotal_price,"503,000"
+train_0001,train,sub_total.service_price,"25,150"
+train_0001,train,sub_total.tax_price,"52,815"
+train_0001,train,total.total_price,"580,965"
+train_0002,train,menu[0].nm,HAKAU UDANG
+train_0002,train,menu[0].cnt,4
+train_0002,train,menu[0].price,"92,000"
+train_0002,train,menu[1].nm,SIAO MAI BABI
+train_0002,train,menu[1].cnt,4
+train_0002,train,menu[1].price,"80,000"
+train_0002,train,menu[2].nm,CEKER AYAM
+train_0002,train,menu[2].cnt,3
+train_0002,train,menu[2].price,"60,000"
+train_0002,train,menu[3].nm,BAKPAO BKR C CRISPY
+train_0002,train,menu[3].cnt,2
+train_0002,train,menu[3].price,"42,000"
+train_0002,train,menu[4].nm,TAHU GORENG CRISPY
+train_0002,train,menu[4].cnt,3
+train_0002,train,menu[4].price,"60,000"
+train_0002,train,sub_total.subtotal_price,"334,000"
+train_0002,train,total.total_price,"334,000"
+train_0002,train,total.cashprice,"350,000"
+train_0002,train,total.changeprice,"-16,000"
+train_0002,train,total.menutype_cnt,5
+train_0002,train,total.menuqty_cnt,16
+train_0003,train,menu[0].nm,Bintang Bremer
+train_0003,train,menu[0].cnt,1
+train_0003,train,menu[0].price,"59,000"
+train_0003,train,menu[1].nm,Chicken H-H
+train_0003,train,menu[1].cnt,1
+train_0003,train,menu[1].price,"190,000"
+train_0003,train,menu[2].nm,Ades
+train_0003,train,menu[2].cnt,1
+train_0003,train,menu[2].price,"10,000"
+train_0003,train,sub_total.subtotal_price,"259,000"
+train_0003,train,sub_total.discount_price,"19,000"
+train_0003,train,sub_total.service_price,"9,600"
+train_0003,train,sub_total.tax_price,"52,416"
+train_0003,train,total.total_price,"302,016"
+train_0004,train,menu.nm,BASO BIHUN
+train_0004,train,menu.unitprice,43.636
+train_0004,train,menu.cnt,1
+train_0004,train,menu.price,43.636
+train_0004,train,sub_total.subtotal_price,43.636
+train_0004,train,sub_total.tax_price,4.364
+train_0004,train,total.total_price,48.000
+train_0004,train,total.cashprice,50.000
+train_0004,train,total.changeprice,2.000
+train_0005,train,menu[0].nm,Lasagna
+train_0005,train,menu[0].cnt,1
+train_0005,train,menu[0].price,"45,000"
+train_0005,train,menu[1].nm,Spaghetti ChickPesto
+train_0005,train,menu[1].cnt,1
+train_0005,train,menu[1].price,"55,000"
+train_0005,train,menu[2].nm,BangBang Chick Wings
+train_0005,train,menu[2].cnt,1
+train_0005,train,menu[2].price,"49,000"
+train_0005,train,menu[3].nm,Iced Cappuccino
+train_0005,train,menu[3].cnt,1
+train_0005,train,menu[3].price,"33,000"
+train_0005,train,menu[4].nm,Gypsy Gelato Ice Tea
+train_0005,train,menu[4].cnt,1
+train_0005,train,menu[4].price,"39,000"
+train_0005,train,sub_total.subtotal_price,"221,000"
+train_0005,train,sub_total.service_price,"16,575"
+train_0005,train,sub_total.tax_price,"23,758"
+train_0005,train,total.total_price,"261,333"
+train_0005,train,total.total_etc,"100,000"
+train_0005,train,total.creditcardprice,"161,333"
+train_0006,train,menu[0].nm,BASO TAHU
+train_0006,train,menu[0].unitprice,"43,181"
+train_0006,train,menu[0].cnt,1
+train_0006,train,menu[0].price,"43,181"
+train_0006,train,menu[1].nm,ES JERUK
+train_0006,train,menu[1].unitprice,13.000
+train_0006,train,menu[1].cnt,1
+train_0006,train,menu[1].price,"13,000"
+train_0006,train,sub_total.subtotal_price,"56,181"
+train_0006,train,sub_total.tax_price,"5,618"
+train_0006,train,total.total_price,"61,799"
+train_0006,train,total.cashprice,"62,000"
+train_0006,train,total.changeprice,201
+train_0007,train,menu.nm,PKT AYAM
+train_0007,train,menu.price,"33,000"
+train_0007,train,sub_total.subtotal_price,"33,000"
+train_0007,train,sub_total.tax_price,"3,300"
+train_0007,train,total.total_price,"36,300"
+train_0007,train,total.cashprice,"50,000"
+train_0007,train,total.changeprice,"13,700"
+train_0007,train,total.menuqty_cnt,1.00xITEMS
+train_0008,train,menu[0].nm,Kimchi P
+train_0008,train,menu[0].unitprice,36.000
+train_0008,train,menu[0].cnt,1x
+train_0008,train,menu[0].price,36.000
+train_0008,train,menu[1].nm,Fre ice grentea
+train_0008,train,menu[1].unitprice,0.000
+train_0008,train,menu[1].cnt,1x
+train_0008,train,menu[1].price,Rp 0.000
+train_0008,train,total.total_price,36.000
+train_0008,train,total.cashprice,Rp 51.000
+train_0008,train,total.changeprice,15.000
+train_0009,train,menu.nm,THAI ICED TEA
+train_0009,train,menu.unitprice,@20.000
+train_0009,train,menu.cnt,2
+train_0009,train,menu.price,40.000
+train_0009,train,sub_total.subtotal_price,40.000
+train_0009,train,total.total_price,40.000
+train_0009,train,total.cashprice,100.000
+train_0009,train,total.changeprice,60.000
+train_0010,train,menu.nm,Viet Milk Coffee
+train_0010,train,menu.cnt,1
+train_0010,train,menu.price,25.000
+train_0010,train,menu.sub[0].nm,+Hot
+train_0010,train,menu.sub[1].nm,+M
+train_0010,train,sub_total.subtotal_price,25.000
+train_0010,train,total.total_price,25.000
+train_0010,train,total.cashprice,30.000
+train_0010,train,total.changeprice,5.000
+train_0011,train,menu[0].nm,Ayam Bakar
+train_0011,train,menu[0].cnt,2
+train_0011,train,menu[0].price,55.000
+train_0011,train,menu[1].nm,Nasi Putih
+train_0011,train,menu[1].cnt,2
+train_0011,train,menu[1].price,20.000
+train_0011,train,menu[2].nm,Nila Bakar/Goreng
+train_0011,train,menu[2].cnt,1
+train_0011,train,menu[2].price,"27,500"
+train_0011,train,menu[3].nm,Sop Gurame
+train_0011,train,menu[3].cnt,1
+train_0011,train,menu[3].price,87.000
+train_0011,train,menu[4].nm,Teh Poci
+train_0011,train,menu[4].cnt,1
+train_0011,train,menu[4].price,25.000
+train_0011,train,sub_total.subtotal_price,214.500
+train_0011,train,sub_total.service_price,12.870
+train_0011,train,sub_total.tax_price,22.737
+train_0011,train,total.total_price,"250,107"
+train_0012,train,menu[0].nm,NASI + AYAM KATSU TER...
+train_0012,train,menu[0].cnt,1
+train_0012,train,menu[0].price,"31,819"
+train_0012,train,menu[1].nm,TEH PANAS
+train_0012,train,menu[1].cnt,1
+train_0012,train,menu[1].price,"5,455"
+train_0012,train,menu[2].nm,ES TEH MANIS
+train_0012,train,menu[2].cnt,1
+train_0012,train,menu[2].price,"7,273"
+train_0012,train,menu[3].nm,CH CORDON BLEU NASI
+train_0012,train,menu[3].cnt,1
+train_0012,train,menu[3].price,"42,728"
+train_0012,train,sub_total.subtotal_price,"87,275"
+train_0012,train,sub_total.tax_price,"8,728"
+train_0012,train,sub_total.etc,-3
+train_0012,train,total.total_price,"96,000"
+train_0012,train,total.creditcardprice,"96,000"
+train_0012,train,total.menuqty_cnt,ITEMS :4
+train_0013,train,menu[0].nm,BLACK PEPPER MEATBALL
+train_0013,train,menu[0].cnt,1
+train_0013,train,menu[0].price,"76,500"
+train_0013,train,menu[1].nm,GREEN TEA WITH CRUMBLE
+train_0013,train,menu[1].cnt,1
+train_0013,train,menu[1].price,"56,000"
+train_0013,train,menu[2].nm,EARL GREY MILK TEA
+train_0013,train,menu[2].cnt,1
+train_0013,train,menu[2].price,"57,000"
+train_0013,train,menu[3].nm,ORIGINAL BREWED TEA
+train_0013,train,menu[3].cnt,1
+train_0013,train,menu[3].price,"23,000"
+train_0013,train,sub_total.subtotal_price,"212,500"
+train_0013,train,sub_total.service_price,"12,750"
+train_0013,train,sub_total.tax_price,"22,525"
+train_0013,train,total.total_price,"247,775"
+train_0014,train,menu[0].nm,4005-Maple glazed
+train_0014,train,menu[0].unitprice,25.000
+train_0014,train,menu[0].cnt,x1
+train_0014,train,menu[0].price,25.000
+train_0014,train,menu[1].nm,6001-Plastic Bag Small
+train_0014,train,menu[1].unitprice,0
+train_0014,train,menu[1].cnt,x1
+train_0014,train,menu[1].price,0
+train_0014,train,total.total_price,25.000
+train_0014,train,total.cashprice,50.000
+train_0014,train,total.changeprice,25.000
+train_0014,train,total.menuqty_cnt,2
+train_0015,train,menu[0].nm,BLACK PEPPER MEATBALL
+train_0015,train,menu[0].cnt,1
+train_0015,train,menu[0].price,"76,500"
+train_0015,train,menu[1].nm,QUARTO FORMANGGI PASTA
+train_0015,train,menu[1].cnt,1
+train_0015,train,menu[1].price,"82,500"
+train_0015,train,menu[2].nm,GREEN TEA WITH CRUMBLE
+train_0015,train,menu[2].cnt,1
+train_0015,train,menu[2].price,"56,000"
+train_0015,train,menu[3].nm,ORIGINAL BREWED TEA
+train_0015,train,menu[3].cnt,2
+train_0015,train,menu[3].price,"46,000"
+train_0015,train,sub_total.subtotal_price,"261,000"
+train_0015,train,sub_total.service_price,"15,660"
+train_0015,train,sub_total.tax_price,"27,666"
+train_0015,train,total.total_price,"304,326"
+train_0016,train,menu.nm,- TICKET CP
+train_0016,train,menu.num,901016
+train_0016,train,menu.price,"30,000"
+train_0016,train,sub_total.subtotal_price,"30,000"
+train_0016,train,total.total_price,"30,000"
+train_0016,train,total.creditcardprice,"30,000"
+train_0016,train,total.menuqty_cnt,1.00
+train_0017,train,menu[0].nm,RB. COKLAT BAR
+train_0017,train,menu[0].cnt,1
+train_0017,train,menu[0].price,"8,000"
+train_0017,train,menu[1].nm,RB. CREPES TUNA
+train_0017,train,menu[1].cnt,1
+train_0017,train,menu[1].price,"9,000"
+train_0017,train,menu[2].nm,RB. SISIR PANDAN
+train_0017,train,menu[2].cnt,1
+train_0017,train,menu[2].price,"7,500"
+train_0017,train,sub_total.subtotal_price,"24,500"
+train_0017,train,total.total_price,"24,500"
+train_0017,train,total.cashprice,"50,000"
+train_0017,train,total.changeprice,"25,500"
+train_0017,train,total.menutype_cnt,3
+train_0017,train,total.menuqty_cnt,3
+train_0018,train,menu.nm,KING DEAL FISH
+train_0018,train,menu.cnt,1
+train_0018,train,menu.price,25000
+train_0018,train,sub_total.subtotal_price,25000
+train_0018,train,sub_total.tax_price,2500
+train_0018,train,total.total_price,27500
+train_0018,train,total.cashprice,100000
+train_0018,train,total.changeprice,72500
+train_0019,train,menu[0].nm,UDANG RE
+train_0019,train,menu[0].unitprice,"216,000"
+train_0019,train,menu[0].cnt,2
+train_0019,train,menu[0].price,"432,000"
+train_0019,train,menu[0].sub.nm,=*LARGE*==
+train_0019,train,menu[0].sub.cnt,2
+train_0019,train,menu[1].nm,AYM GR JUN NJAN
+train_0019,train,menu[1].cnt,1
+train_0019,train,menu[1].price,"108,000"
+train_0019,train,menu[1].sub.nm,=*MEDIUM*=
+train_0019,train,menu[2].nm,SAPO TH SEAFOOD
+train_0019,train,menu[2].cnt,1
+train_0019,train,menu[2].price,"172,000"
+train_0019,train,menu[2].sub.nm,=*LARGE*==
+train_0019,train,menu[3].nm,POCAI 3
+train_0019,train,menu[3].unitprice,"111,000"
+train_0019,train,menu[3].cnt,2
+train_0019,train,menu[3].price,"222,000"
+train_0019,train,menu[3].sub.nm,=*MEDIUM*=
+train_0019,train,menu[3].sub.cnt,2
+train_0019,train,menu[4].nm,GURAME FILLET M ASAM MANIS
+train_0019,train,menu[4].cnt,1
+train_0019,train,menu[4].price,"163,000"
+train_0019,train,menu[5].nm,BIHUN GORENG JJ
+train_0019,train,menu[5].cnt,1
+train_0019,train,menu[5].price,"116,000"
+train_0019,train,menu[5].sub.nm,=*LARGE*==
+train_0019,train,menu[6].nm,ICED TEA
+train_0019,train,menu[6].unitprice,"12,000"
+train_0019,train,menu[6].cnt,5
+train_0019,train,menu[6].price,"60,000"
+train_0019,train,menu[7].nm,NASI PUTIH
+train_0019,train,menu[7].unitprice,"10,000"
+train_0019,train,menu[7].cnt,7
+train_0019,train,menu[7].price,"70,000"
+train_0019,train,sub_total.subtotal_price,"1,343,000"
+train_0019,train,sub_total.service_price,"80,580"
+train_0019,train,sub_total.tax_price,"142,358"
+train_0019,train,sub_total.etc[0],"1,213,000"
+train_0019,train,sub_total.etc[1],"60,000"
+train_0019,train,sub_total.etc[2],"70,000"
+train_0019,train,total.total_price,"1,565,938"
+test_0000,test,menu.nm,-TICKET CP
+test_0000,test,menu.num,901016
+test_0000,test,menu.cnt,2
+test_0000,test,menu.price,60.000
+test_0000,test,menu.itemsubtotal,60.000
+test_0000,test,sub_total.subtotal_price,60.000
+test_0000,test,sub_total.discount_price,-60.000
+test_0000,test,sub_total.tax_price,5.455
+test_0000,test,total.total_price,60.000
+test_0000,test,total.creditcardprice,60.000
+test_0000,test,total.menuqty_cnt,2.00
+test_0001,test,menu[0].nm,J.STB PROMO
+test_0001,test,menu[0].price,17500
+test_0001,test,menu[1].nm,Y.B.BAT
+test_0001,test,menu[1].price,46000
+test_0001,test,menu[2].nm,Y.BASO PROM
+test_0001,test,menu[2].price,27500
+test_0001,test,total.total_price,91000
+test_0001,test,total.cashprice,91000
+test_0002,test,menu.nm,JASMINE MT ( L )
+test_0002,test,menu.cnt,1
+test_0002,test,menu.price,"24,000"
+test_0002,test,menu.sub.nm,COCONUT JELLY ( L )
+test_0002,test,menu.sub.price,"4,000"
+test_0002,test,sub_total.subtotal_price,"28,000"
+test_0002,test,total.total_price,"28,000"
+test_0002,test,total.cashprice,"100,000"
+test_0002,test,total.changeprice,"72,000"
+test_0002,test,total.menuqty_cnt,1
+test_0003,test,menu.nm,DONAT GULA
+test_0003,test,menu.unitprice,@11000
+test_0003,test,menu.cnt,1X
+test_0003,test,menu.price,"11,000"
+test_0003,test,sub_total.subtotal_price,"11,000"
+test_0003,test,total.total_price,"11,000"
+test_0003,test,total.cashprice,"11,000"
+test_0003,test,total.menuqty_cnt,1.00xITEMs
+test_0004,test,menu[0].nm,ICE BLACKCOFFE
+test_0004,test,menu[0].cnt,2
+test_0004,test,menu[0].price,"82,000"
+test_0004,test,menu[1].nm,AVOCADO COFFEE
+test_0004,test,menu[1].cnt,1
+test_0004,test,menu[1].price,"61,000"
+test_0004,test,menu[2].nm,CHIKEN KATSU FF
+test_0004,test,menu[2].cnt,1
+test_0004,test,menu[2].price,"51,000"
+test_0004,test,sub_total.subtotal_price,"194,000"
+test_0004,test,sub_total.discount_price,"19,400"
+test_0004,test,total.total_price,"174,600"
+test_0004,test,total.cashprice,"200,000"
+test_0004,test,total.changeprice,"25,400"
+test_0005,test,menu.nm,TRAD KY TOAST CARTE
+test_0005,test,menu.price,28.182
+test_0005,test,sub_total.subtotal_price,28.182
+test_0005,test,sub_total.tax_price,2.818
+test_0005,test,total.total_price,31.000
+test_0005,test,total.cashprice,31.000
+test_0005,test,total.menuqty_cnt,1.00
+test_0006,test,menu[0].nm,EGG TART
+test_0006,test,menu[0].cnt,1
+test_0006,test,menu[0].price,"13,000"
+test_0006,test,menu[1].nm,CHOCO CUS ARD PASTRY
+test_0006,test,menu[1].cnt,2
+test_0006,test,menu[1].price,"24,000"
+test_0006,test,menu[2].nm,REDBEAN BREAD
+test_0006,test,menu[2].cnt,1
+test_0006,test,menu[2].price,"9,000"
+test_0006,test,total.total_price,"46,000"
+test_0006,test,total.cashprice,"50,000"
+test_0006,test,total.changeprice,"4,000"
+test_0007,test,menu.nm,Kupon 15
+test_0007,test,menu.price,"100,000"
+test_0007,test,menu.sub.nm,ADD CHICKEN BOX
+test_0007,test,menu.sub.price,909
+test_0007,test,sub_total.subtotal_price,"100,909"
+test_0007,test,sub_total.tax_price,"10,091"
+test_0007,test,total.total_price,"111,000"
+test_0007,test,total.cashprice,"Rp. 111,000"
+test_0008,test,menu.nm,[REG] BLACK SAKURA
+test_0008,test,menu.cnt,1
+test_0008,test,menu.price,"45,455"
+test_0008,test,menu.sub[0].nm,COOKIE DOH SAUCES
+test_0008,test,menu.sub[0].cnt,1
+test_0008,test,menu.sub[0].price,0
+test_0008,test,menu.sub[1].nm,NATA DE COCO
+test_0008,test,menu.sub[1].cnt,1
+test_0008,test,menu.sub[1].price,0
+test_0008,test,sub_total.subtotal_price,"45,455"
+test_0008,test,sub_total.tax_price,"4,545"
+test_0008,test,sub_total.etc,0
+test_0008,test,total.total_price,"50,000"
+test_0008,test,total.creditcardprice,"50,000"
+test_0009,test,menu.nm,Bumbu Kaldu Ayam 1
+test_0009,test,menu.unitprice,36000
+test_0009,test,menu.price,36000
+test_0009,test,sub_total.subtotal_price,36000
+test_0009,test,total.cashprice,50000
+test_0009,test,total.changeprice,14000

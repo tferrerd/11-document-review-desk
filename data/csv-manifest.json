@@ -1,0 +1,219 @@
+{
+  "dataset": "NAVER CLOVA CORD-v2 receipt parsing",
+  "source_urls": [
+    "https://github.com/clovaai/cord",
+    "https://huggingface.co/datasets/naver-clova-ix/cord-v2",
+    "https://datasets-server.huggingface.co/first-rows?dataset=naver-clova-ix/cord-v2&config=default&split=train",
+    "https://datasets-server.huggingface.co/rows?dataset=naver-clova-ix/cord-v2&config=default&split=test&offset=0&length=10"
+  ],
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "selection": "Source subset: first 20 train receipts and first 10 test receipts exposed by the publisher dataset viewer. All OCR words/categories and structured ground-truth fields for these receipts are included, with API-exported JPEG image copies.",
+  "notes": "Attribution: Seunghyun Park and NAVER CLOVA CORD team, CORD: A Consolidated Receipt Dataset for Post-OCR Parsing (2019). Replaces FUNSD with an explicitly licensed publisher release. This is receipt parsing, not an invoice or form-question benchmark. Source revision: 7f0115a4b758a71d6473b8d085751692da2fef98. All original ground-truth JSON is preserved in the receipt CSV; field_path is a derived join key. Source split labels are unchanged. The 30-receipt subset is an initial development sample, not the full benchmark or sufficient evidence of broad layout generalization. Image geometry is verified against the viewer's reported dimensions.",
+  "generated_at_utc": "2026-10-17T20:53:00.525630+00:00",
+  "files": [
+    {
+      "path": "data/raw/cord_receipts.csv",
+      "rows": 30,
+      "columns": [
+        "receipt_id",
+        "source_split",
+        "source_row",
+        "image_path",
+        "width",
+        "height",
+        "ground_truth_json"
+      ],
+      "bytes": 210277,
+      "sha256": "b5d45f4f84f067500596a6d18c38b3602ad923226c799afe37da167ef8f95cf5"
+    },
+    {
+      "path": "data/raw/cord_words.csv",
+      "rows": 830,
+      "columns": [
+        "receipt_id",
+        "source_split",
+        "line_id",
+        "word_id",
+        "text",
+        "category",
+        "group_id",
+        "row_id",
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "x3",
+        "y3",
+        "x4",
+        "y4"
+      ],
+      "bytes": 63757,
+      "sha256": "59fdacc6685791f416299272d437d5a0fb0552cbba489e658f44c4357c492fd9"
+    },
+    {
+      "path": "data/raw/cord_fields.csv",
+      "rows": 460,
+      "columns": [
+        "receipt_id",
+        "source_split",
+        "field_path",
+        "value"
+      ],
+      "bytes": 18367,
+      "sha256": "80dc3c09c1d7b590e8dedee5b9f140ea44b512bc20583b41ba04f93203390047"
+    }
+  ],
+  "assets": [
+    {
+      "path": "data/raw/images/train_0000.jpg",
+      "sha256": "a7efa7596757d7916c5e454e8bd98e3371cdf476ac737a269693804484cfc193",
+      "bytes": 120052
+    },
+    {
+      "path": "data/raw/images/train_0001.jpg",
+      "sha256": "4eeef6f59cc6ed5be9c84914498aa8acb3f5a98ac5978382247e4c26e1f2c94e",
+      "bytes": 90803
+    },
+    {
+      "path": "data/raw/images/train_0002.jpg",
+      "sha256": "6db1c1cf9ae1794e22e9f7406932a5fd1ea55759bd025c389348a371981e10f4",
+      "bytes": 43924
+    },
+    {
+      "path": "data/raw/images/train_0003.jpg",
+      "sha256": "81391bfa6ad7f593f6175117f46d906b09c7c5d47a388335cb7d7c4c0e383ffd",
+      "bytes": 171040
+    },
+    {
+      "path": "data/raw/images/train_0004.jpg",
+      "sha256": "ea4eff3bf2abdb31b936c10c5363801799b5b602a344cd8b6fcecdea7b4fe3fd",
+      "bytes": 69385
+    },
+    {
+      "path": "data/raw/images/train_0005.jpg",
+      "sha256": "893039ec50d04a6d8d151ebfa47a98528f4e8cb5abfc0097183b64dafbd10895",
+      "bytes": 477838
+    },
+    {
+      "path": "data/raw/images/train_0006.jpg",
+      "sha256": "23c3d688178a7b4d458ac0d101019b29bbb63af9e97f847485e7b01db6463127",
+      "bytes": 83361
+    },
+    {
+      "path": "data/raw/images/train_0007.jpg",
+      "sha256": "02a417cd812b79f3f6108ff5767dc4c69780c7b7d9dd1c9151f8f5a2fcdeef0c",
+      "bytes": 83428
+    },
+    {
+      "path": "data/raw/images/train_0008.jpg",
+      "sha256": "26a7417893d551b8f856ed8246045dc5fd4e31732a1ede0f9b66b3370a6ab25f",
+      "bytes": 83631
+    },
+    {
+      "path": "data/raw/images/train_0009.jpg",
+      "sha256": "9d7b06c4cf079749b7e8a650d63aecf99522e114900c3e0bc1a263812be79179",
+      "bytes": 121771
+    },
+    {
+      "path": "data/raw/images/train_0010.jpg",
+      "sha256": "47bc2fe6e9cdd2b007ef604e78fefa9ca83ef1d543ec87e3b327a4d16fce5f67",
+      "bytes": 25650
+    },
+    {
+      "path": "data/raw/images/train_0011.jpg",
+      "sha256": "2005a94dc149c44d2ae49348b9bbf669675060f42a30d68d1ebe4af6b738c7e3",
+      "bytes": 106803
+    },
+    {
+      "path": "data/raw/images/train_0012.jpg",
+      "sha256": "fc4ab24a6f9488786dbaa5db0151cfcda985684e0426ebd4eec535bcfba7ec9f",
+      "bytes": 59690
+    },
+    {
+      "path": "data/raw/images/train_0013.jpg",
+      "sha256": "d9336c340dd09ca3752a571b092bf3233fa7487f6fee1c4abdb33c17ac5e63dd",
+      "bytes": 602537
+    },
+    {
+      "path": "data/raw/images/train_0014.jpg",
+      "sha256": "a66e80f49ead69e7ec6feffc0c3a47f3eb1d4f7f6a562d0fae6c5117d320e9cd",
+      "bytes": 48721
+    },
+    {
+      "path": "data/raw/images/train_0015.jpg",
+      "sha256": "07ddf9a9c75266fe267be4e3293d827c1e4214cdb0e479e14f34a906092e39c4",
+      "bytes": 556462
+    },
+    {
+      "path": "data/raw/images/train_0016.jpg",
+      "sha256": "3b7e7c426b9889e57a6af51cc9094954b3ec4308d0c8109b2055f48fbb8c0307",
+      "bytes": 68073
+    },
+    {
+      "path": "data/raw/images/train_0017.jpg",
+      "sha256": "7003892cadd9defbe2ec7ec6cf3452823fa8cde186e449906c87989c011872d5",
+      "bytes": 63753
+    },
+    {
+      "path": "data/raw/images/train_0018.jpg",
+      "sha256": "8832a78e9100fd28fbf2930c3a83576be048213c2139b0d3f6b5014bd5e0d5a2",
+      "bytes": 51343
+    },
+    {
+      "path": "data/raw/images/train_0019.jpg",
+      "sha256": "3f060e8846266912fb5f99755e38cafde84eefdf54507a5e5270bd8e4ab9989c",
+      "bytes": 153449
+    },
+    {
+      "path": "data/raw/images/test_0000.jpg",
+      "sha256": "4e13b815b540420a4d68229494bd6259768c226a595114609970edae9a620aa9",
+      "bytes": 25639
+    },
+    {
+      "path": "data/raw/images/test_0001.jpg",
+      "sha256": "636284664cfc357e05f7b10d67ddb380f828a1be0a20809514f9e7fc0c611a9f",
+      "bytes": 56652
+    },
+    {
+      "path": "data/raw/images/test_0002.jpg",
+      "sha256": "bcf0c175181bfc6b2352ab8f452704b8f18e27fa51f2278bc5c41f6765179edb",
+      "bytes": 67501
+    },
+    {
+      "path": "data/raw/images/test_0003.jpg",
+      "sha256": "175fdc716afc51e67bcb79954c3dad4b54633299ec124780e5af04a8e8305333",
+      "bytes": 68697
+    },
+    {
+      "path": "data/raw/images/test_0004.jpg",
+      "sha256": "b4261949b52af19e53c27526fc8c4230b10eed207101bf51741c428b4c055c01",
+      "bytes": 82517
+    },
+    {
+      "path": "data/raw/images/test_0005.jpg",
+      "sha256": "02032d7f74a5b74b2a85bd868b433fa57fe77bb997186a0cf33d182cce42fb84",
+      "bytes": 504070
+    },
+    {
+      "path": "data/raw/images/test_0006.jpg",
+      "sha256": "330d2b8d6c44c26f0812f4633cf9429ba17d9f0ea77983d4f954cfeff1b9ea90",
+      "bytes": 118123
+    },
+    {
+      "path": "data/raw/images/test_0007.jpg",
+      "sha256": "b3012b04292bc06fd7bd3f8dcc925dafd1958be18400eee06b7f60fb27bf9ea5",
+      "bytes": 67538
+    },
+    {
+      "path": "data/raw/images/test_0008.jpg",
+      "sha256": "910372079a2bbafc0857931d252608876e3ba6e3ab1b99947f159192f42c9676",
+      "bytes": 107110
+    },
+    {
+      "path": "data/raw/images/test_0009.jpg",
+      "sha256": "f1922943a5c2a4627fbd93ca2551bb7a79038ee9a760e63239b0036482b0238c",
+      "bytes": 42833
+    }
+  ]
+}

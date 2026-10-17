@@ -2,9 +2,25 @@
 
 - **Application:** Document processing
 - **Portfolio project:** 11 of 15
-- **Status:** Project brief defined. Dataset acquisition, ML, application and MLOps implementation have not started.
+- **Status:** Source-derived CSV data is committed. ML models, the application and MLOps remain to be implemented.
 
 Part of [Tomas Ferrer's DS/ML portfolio](https://tomasferrer.com/).
+
+## Committed CSV dataset
+
+**Dataset:** NAVER CLOVA CORD-v2 receipt parsing
+
+**Coverage:** Source subset: first 20 train receipts and first 10 test receipts exposed by the publisher dataset viewer. All OCR words/categories and structured ground-truth fields for these receipts are included, with API-exported JPEG image copies.
+
+| CSV file | Rows |
+|---|---:|
+| [cord_receipts.csv](data/raw/cord_receipts.csv) | 30 |
+| [cord_words.csv](data/raw/cord_words.csv) | 830 |
+| [cord_fields.csv](data/raw/cord_fields.csv) | 460 |
+
+These are actual published observations or documented format conversions. See [source, license and limitations](data/DATASET.md) and [CSV schemas/checksums](data/csv-manifest.json).
+
+The repository also includes 30 supporting image/mask assets referenced by the CSV data. Image-based work uses those assets; the CSV is not presented as a replacement for image content.
 
 ## Project prompt
 
@@ -14,17 +30,15 @@ Build an end-to-end document processing application that turns a published onlin
 
 **Decision:** Which extracted document fields can be accepted automatically and which require correction?
 
-**Application to build:** Select a scanned form, inspect extracted entities and question/answer links beside the source, correct errors, and export structured JSON/CSV.
+**Application to build:** Select a receipt, inspect extracted semantic fields and OCR boxes beside the image, correct errors, and export structured JSON/CSV.
 
 Write a short project charter defining the user, current baseline, primary business KPI, guardrails, prediction time, and measurable success criteria before selecting a model. Explain which decision the model changes and the costs of incorrect decisions.
 
 ### Published dataset and raw data
 
-[FUNSD](https://guillaumejaume.github.io/FUNSD/) published form images, text, bounding boxes, semantic labels and links. Keep the released files/splits intact. The application follows form understanding rather than assuming invoice fields that the dataset does not supply.
+The committed source is **NAVER CLOVA CORD-v2 receipt parsing**. Source subset: first 20 train receipts and first 10 test receipts exposed by the publisher dataset viewer. All OCR words/categories and structured ground-truth fields for these receipts are included, with API-exported JPEG image copies. See [dataset documentation](data/DATASET.md) for original links, attribution, usage terms and limitations.
 
-**Additional source/access notes:** Use the source's form-understanding task and published split. Train field/entity extraction on forms; evaluate extraction and link recovery. These are forms, not an invoice benchmark
-
-Acquire a pinned source release into `data/raw/` and preserve the original bytes. Add a repeatable acquisition script and a manifest containing source URL, release/version, retrieval time, citation, terms, file sizes and SHA-256 checksums. Keep cleaned data in `data/interim/` and model-ready features/split assignments in `data/processed/`. Raw data stay out of Git unless redistribution is explicitly appropriate.
+Acquire a pinned source release into `data/raw/` and preserve the original bytes. Add a repeatable acquisition script and a manifest containing source URL, release/version, retrieval time, citation, terms, file sizes and SHA-256 checksums. Keep cleaned data in `data/interim/` and model-ready features/split assignments in `data/processed/`. Redistributable CSV exports and the documented supporting assets are committed; large source archives remain excluded from Git.
 
 Audit labels, decision-time feature availability, duplicates, missingness, class balance, and temporal/group structure. If the candidate cannot support the task or intended use, find another suitable published dataset or narrow the question. Generated fixtures and economic scenarios are supplementary, clearly labeled artifacts.
 
@@ -32,13 +46,13 @@ Audit labels, decision-time feature availability, duplicates, missingness, class
 
 **Required fitted component:** Trained form entity classifier/linking pipeline.
 
-OCR/text-layout rules as a baseline versus a trained token/entity classifier and key-value linking method. Train on labeled source forms and evaluate on unseen documents, respecting the official benchmark split. Model predictions and confidence drive the review workflow.
+Compare text/layout rules with a trained OCR token/field classifier using CORD semantic categories and coordinates. Preserve receipt groups and source splits. Evaluate structured field extraction and route uncertain values for review; expand beyond the initial sample before claiming broad performance.
 
 Produce a reproducible training command and save the fitted preprocessing, model and decision policy together where appropriate. Compare the learned approach with a simple baseline. Pretrained models may support the solution, but a pretrained API call or prompt alone does not fulfill the trained-component requirement.
 
 ### Evaluation and business impact
 
-Entity extraction F1, link recovery, structured-output validity and human-review coverage on held-out forms. Separate OCR failures from extraction/linking failures and document the small benchmark's generalization limits.
+Token/entity F1, structured field-value accuracy, output validity and human-review coverage on held-out receipts. Separate OCR and field extraction failures; document the limited size of this initial subset.
 
 Separate development/model selection from final evaluation. Fit transformations on training data only and compare candidate and incumbent on the same evaluation protocol. Save metrics, uncertainty/robustness checks, and representative failure cases with code/data/model identifiers.
 
@@ -75,7 +89,7 @@ Use the smallest architecture that completes this lifecycle. Select real-time or
 
 ## Completion checklist
 
-- [ ] Published source acquired, checksum verified and provenance/profile recorded.
+- [x] Published source acquired, checksum verified and provenance/profile recorded.
 - [ ] Data audit, project charter, success criteria and evaluation protocol complete.
 - [ ] Baseline and trained ML component evaluated; artifacts and failure analysis saved.
 - [ ] Working application deployed with the exact evaluated model version.
@@ -84,4 +98,4 @@ Use the smallest architecture that completes this lifecycle. Select real-time or
 
 ## Current implementation
 
-This repository currently contains the implementation brief and Git exclusions. The dataset links identify starting sources; acquisition and model results will be documented as implementation proceeds.
+Published dataset observations, CSV exports, supporting assets where applicable, and provenance/checksum documentation are present. Models, application functionality and MLOps have not been implemented or evaluated yet.
